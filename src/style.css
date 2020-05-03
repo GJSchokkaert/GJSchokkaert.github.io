@@ -1,0 +1,15 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.chart-container {
+  height: 80%;
+  width: 80%;
+  margin: 20px;
+}
